@@ -2,7 +2,7 @@
 function SUCC_bagDefaults()
 	SUCC_bagOptions = {}
 	SUCC_bagOptions.colors = {}
-	SUCC_bagOptions.colors.highlight = {1, 0.2, 0.2 }
+	SUCC_bagOptions.colors.highlight = {1, 0.2, 0.2}
 	SUCC_bagOptions.colors.quest = {0.96, 0.64, 0.94}
 	SUCC_bagOptions.colors.ammo = {0.8, 0.8, 0.3}
 	SUCC_bagOptions.colors.BG = {0.98, 0.95, 0}
