@@ -17,8 +17,8 @@ function SUCC_bagDefaults()
 	SUCC_bagOptions.layout = {}
 	SUCC_bagOptions.layout.spacing = 4
 	SUCC_bagOptions.layout.columns ={}
-	SUCC_bagOptions.layout.columns.bag = 8
-	SUCC_bagOptions.layout.columns.bank = 8
+	SUCC_bagOptions.layout.columns.bag = 10
+	SUCC_bagOptions.layout.columns.bank = 10
 	SUCC_bagOptions.Clean_Up = 1
 	return SUCC_bagOptions
 end
