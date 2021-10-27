@@ -196,7 +196,8 @@ local function ItemUpdateBorder(button, option)
 					button:GetNormalTexture():SetVertexColor(unpack(SUCC_bagOptions.colors.quest))
 					return
 				elseif q ~= nil and q > 1 then
-					button:GetNormalTexture():SetVertexColor(GetItemQualityColor(q))
+-- If you want item quality borders then uncomment the next line
+--					button:GetNormalTexture():SetVertexColor(GetItemQualityColor(q))
 					return
 				end
 			end
